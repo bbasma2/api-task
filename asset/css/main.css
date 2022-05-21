@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.background{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.link{
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 50%;
+right: 50vh;
+  color: #e1ecec;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+.bubbles{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: -30px;
+  width: 100%;
+}
+
+ @keyframes bubble {
+  0%   {transform: translate(0, 0);}
+
+  
+  100% {transform: translate(0, -700px);
+  opacity: 0;}
+}
+
+.img1 {
+  animation: bubble 5s infinite linear;
+  width: 50px;
+  height: 50px;
+}
+
+.img2 {
+  animation: bubble 6s infinite linear;
+  width: 35px;
+  height: 35px;
+}
+
+.img3 {
+  animation: bubble 7s infinite linear;
+  width: 20px;
+  height: 20px;
+}
+
+.img4 {
+  animation: bubble 4.5s infinite linear;
+  width: 50px;
+  height: 50px;
+}
+
+.img5 {
+  animation: bubble 9s infinite linear;
+  width: 15px;
+  height: 15px;
+}
+
+.img6 {
+  animation: bubble 6s infinite linear;
+  width: 25px;
+  height: 25px;
+}
+
+.img7 {
+  animation: bubble 12s infinite linear;
+  width: 30px;
+  height: 30px;
+}
+
+ 

@@ -138,7 +138,7 @@ html {
   position: relative;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
 }
 
 @media screen and (max-width: 1065px) {
